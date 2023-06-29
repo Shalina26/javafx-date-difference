@@ -1,0 +1,18 @@
+.root{
+    -fx-background-color: #e2e7da;
+}
+
+.button {
+    -fx-color: #b3bf9c;
+    -fx-background-insets: 0;
+    -fx-border-color: #8c9b6b;
+    -fx-border-width: 1;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+}
+
+#nameTextField{
+    -fx-background-radius: 5;
+    -fx-border-color: #b3bf9c;
+    -fx-border-radius: 5;
+}

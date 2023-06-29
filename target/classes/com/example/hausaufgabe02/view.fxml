@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hausaufgabe02.LoginController">
+   <children>
+      <Button fx:id="proceedBtn" layoutX="382.0" layoutY="212.0" mnemonicParsing="false" onAction="#switchToMainScene" prefHeight="26.0" prefWidth="63.0" text="weiter" textAlignment="CENTER" />
+      <Label layoutX="156.0" layoutY="147.0" prefHeight="26.0" prefWidth="217.0" text="Wenn du fertig bist, klicke auf &quot;weiter&quot;." wrapText="true" />
+      <Label layoutX="156.0" layoutY="124.0" text="Gib hier deinen Namen ein." />
+      <TextField layoutX="156.0" layoutY="212.0" prefHeight="26.0" prefWidth="217.0" promptText="Name" />
+   </children>
+</AnchorPane>
